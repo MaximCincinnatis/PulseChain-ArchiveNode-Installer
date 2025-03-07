@@ -1,0 +1,44 @@
+# Backup directories
+backup_*/
+
+# User-specific installation directories
+/blockchain/
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+testdata/
+
+# Temporary files
+*.tmp
+*~ 
+
+# JWT and security files
+*.jwt
+jwt.hex
+*.key
+*.pem
+*.secret
+
+# Data directories
+/data/
+/node/data/
+
+# Environment files
+*.env
+.env*
+!.env.example
+
+# Docker volumes
+docker-volumes/ 
